@@ -1,4 +1,5 @@
 Code Book
+
 1. Source data is obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2. Two additional columns are added - activity and subject
