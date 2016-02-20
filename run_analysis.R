@@ -1,6 +1,6 @@
 setwd("~/Coursera/Getting and Cleaning Data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
-# Loading the train CSV files data into Train_data table
 
+# Loading the train CSV files data into Train_data table
 train_data = read.csv("train/X_train.txt", sep="", header=FALSE)
 train_data[,562] = read.csv("train/Y_train.txt", sep="", header=FALSE)
 train_data[,563] = read.csv("train/subject_train.txt", sep="", header=FALSE)
